@@ -32,3 +32,11 @@
    border-color: white;
 
  }
+
+ .transition{
+   transform: 1s ease;
+ }
+
+ .transition:hover{
+   transform: scale(1.2);
+ }
