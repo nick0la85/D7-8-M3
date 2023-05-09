@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+ }
+ body{
+    background-color: #141414;
+    color: white;
+ }
+
+ #logo{
+    width: 70px;
+ }
+
+ .user-profile{
+   background-image: url(/assets/user.jpg);
+   width: 40px;
+   height: 40px;
+   background-size: cover;
+ }
+
+ .dropdown-profile{
+    border-color: none;
+ }
+
+ .kids{
+    font-size: 10px;
+ }
+
+ .genres-button{
+   background-color: #000000;
+   border-color: white;
+
+ }
