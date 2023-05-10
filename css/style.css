@@ -1,45 +1,63 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
- }
- body{
-    background-color: #141414;
-    color: white;
-    padding: 20px;
- }
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
 
- #logo{
-    width: 150px;
- }
+body {
+   background-color: #141414;
+   color: white;
+   padding: 0 50px;
+   font-family: 'Roboto', sans-serif;
+   font-family: 'Roboto Condensed', sans-serif;
+}
 
- .user-profile{
+#logo {
+   width: 150px;
+}
+
+.user-profile {
    background-image: url(/assets/user.png);
    width: 40px;
    height: 40px;
    background-size: cover;
- }
+}
 
- .dropdown-profile{
-    border-color: none;
- }
+.dropdown-profile {
+   border-color: none;
+}
 
- .kids{
-    font-size: 10px;
- }
+.kids {
+   font-size: 10px;
+}
 
- .genres-button{
+.genres-button {
    background-color: #000000;
    border-color: white;
 
- }
+}
 
- 
 
- .transition:hover{
-   transform: scale(1.4);
- }
 
- @media () {
-   
- }
+.transition:hover {
+   transform: scale(1.2);
+}
+
+@media (max-width:992px) {
+   .transition:hover {
+      transform: scale(1.1);
+   }
+
+   body {
+      padding: 0 20px
+   }
+
+   .center-sm {
+      justify-content: center;
+   }
+
+}
+
+footer{
+   color: #4E4E4E;
+}
