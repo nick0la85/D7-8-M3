@@ -6,14 +6,15 @@
  body{
     background-color: #141414;
     color: white;
+    padding: 20px;
  }
 
  #logo{
-    width: 70px;
+    width: 150px;
  }
 
  .user-profile{
-   background-image: url(/assets/user.jpg);
+   background-image: url(/assets/user.png);
    width: 40px;
    height: 40px;
    background-size: cover;
@@ -33,10 +34,12 @@
 
  }
 
- .transition{
-   transform: 1s ease;
- }
+ 
 
  .transition:hover{
-   transform: scale(1.2);
+   transform: scale(1.4);
+ }
+
+ @media () {
+   
  }
