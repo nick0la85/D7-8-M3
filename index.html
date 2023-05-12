@@ -17,8 +17,8 @@
     <nav class="navbar navbar-expand-lg gutter-0">
         <div class="container-fluid gx-0">
           <a class="navbar-brand" href="#"><img id="logo" src="assets/Netflix_Logo_RGB.png" alt="Netflix_Logo_RGB"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""><i class="fa-solid fa-sliders" style="color:#4E4E4E;"></i></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
@@ -32,13 +32,13 @@
                 <a class="nav-link text-light" href="#">Movies</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light" href="#">Recently Addede</a>
+                <a class="nav-link text-light" href="#">Recently Added</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link text-light" href="#">My List</a>
               </li>
             </ul>
-            <form class="d-flex align-items-center ">
+            <form class="d-flex align-items-center user-align">
                 <i class="fa-solid fa-magnifying-glass me-3" style="color: #ffffff;"></i>
                 <div class="me-3 kids ">
                     <i class="fa-solid fa-k" style="color: #ffffff;"></i>
@@ -52,12 +52,12 @@
                     <button type="button" class="btn text-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
                       <span class="visually-hidden">Toggle Dropdown</span>
                     </button>
-                    <ul class="dropdown-menu dropdown-menu-end">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    <ul class="dropdown-menu dropdown-menu-end bg-dark ">
+                      <li><a class="dropdown-item text-light" href="#">Acount</a></li>
+                      <li><a class="dropdown-item text-light" href="#">Settings</a></li>
+                      <li><a class="dropdown-item text-light" href="#">My Favourites</a></li>
+                      <li><hr class="dropdown-divider bg-light"></li>
+                      <li><a class="dropdown-item text-light" href="#">Log out</a></li>
                     </ul>
                   </div>
             </form>
@@ -66,21 +66,24 @@
     </nav> 
 
     <!--Under navbar-->
-    <nav class="navbar navbar-expand-lg bg-dark-tertiary py-4 ">
+    <nav class="navbar navbar-expand-lg bg-dark-tertiary py-4">
       <div class="container-fluid gx-0">
         <h2>TV Shows</h2>
         <div class="btn-group ms-5 me-auto">
-          <button class="btn text-light btn-sm dropdown-toggle border border-white me-auto" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <button class="btn text-light  dropdown-toggle border border-white me-auto" type="button" data-bs-toggle="dropdown" aria-expanded="false">
             Genres
           </button>
-          <ul class="dropdown-menu ">
-            ...
+          <ul class="dropdown-menu bg-dark text-light text-center ">
+            <li>Horror</li>
+            <li>Fantasy</li>
+            <li>Comedy</li>
+            <li>Thriller</li>
           </ul>
         </div>
-          <form class="d-flex" role="search">
-            <div class="me-4">
-              <i class="fa-solid fa-border-all " style="color: #4E4E4E;"></i>
-              <i class="fa-solid fa-chart-column " style="color: #4E4E4E;"></i>
+          <form role="search">
+            <div class="me-4 d-flex ">
+                <i class="fa-solid fa-border-all me-2 " style="color: #4E4E4E;"></i>
+                <i class="fa-solid fa-list" style="color: #4E4E4E;"></i>
             </div>
           </form>
         
@@ -98,7 +101,7 @@
       <div class="col-lg-2 col-6 mb-2 transition"><img src="assets/6.png"class="d-block img-fluid" alt=""></div>
     </div>
 
-    <h3 class="pb-2">Trending Now</h3>
+    <h3 class="pb-2">Whatch It Again</h3>
     <div class="row d-flex center-sm  pb-5">
       <div class="col-lg-2 col-6 mb-2 transition"><img src="assets/7.png"class="d-block img-fluid" alt=""></div>
       <div class="col-lg-2 col-6 mb-2 transition"><img src="assets/8.png"class="d-block img-fluid" alt=""></div>
@@ -108,7 +111,7 @@
       <div class="col-lg-2 col-6 mb-2 transition"><img src="assets/12.png"class="d-block img-fluid" alt=""></div>
     </div>
 
-    <h3 class="pb-2">Trending Now</h3>
+    <h3 class="pb-2">New Releases</h3>
     <div class="row  d-flex center-sm  pb-5">
       <div class="col-lg-2 col-6 mb-2 transition"><img src="assets/13.png"class="d-block img-fluid" alt=""></div>
       <div class="col-lg-2 col-6 mb-2 transition"><img src="assets/14.png"class="d-block img-fluid" alt=""></div>

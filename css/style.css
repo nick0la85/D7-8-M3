@@ -56,8 +56,16 @@ body {
       justify-content: center;
    }
 
+   .user-align{
+      justify-content: end;
+   }
+
 }
 
 footer{
    color: #4E4E4E;
+}
+
+.color-toggler{
+  background-color:#4E4E4E;
 }
