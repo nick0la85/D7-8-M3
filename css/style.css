@@ -7,7 +7,7 @@
 body {
    background-color: #141414;
    color: white;
-   padding: 0 50px;
+   padding: 0 20px;
    font-family: 'Roboto', sans-serif;
    font-family: 'Roboto Condensed', sans-serif;
 }
@@ -37,8 +37,6 @@ body {
 
 }
 
-
-
 .transition:hover {
    transform: scale(1.2);
 }
@@ -48,24 +46,25 @@ body {
       transform: scale(1.1);
    }
 
-   body {
-      padding: 0 20px
-   }
 
    .center-sm {
       justify-content: center;
    }
 
-   .user-align{
+   .user-align {
       justify-content: end;
    }
 
 }
 
-footer{
+footer {
    color: #4E4E4E;
 }
 
-.color-toggler{
-  background-color:#4E4E4E;
+.opacity {
+   opacity: 0;
+}
+
+.pointer {
+   cursor: pointer;
 }
